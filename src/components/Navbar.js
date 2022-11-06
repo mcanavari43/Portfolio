@@ -49,7 +49,7 @@ const Navbar = () => {
             rel="noreferrer"
             download="Cv-Manuel-Canavari.pdf"
           >
-            Descargar CV
+            Download CV
           </a>
             </li>
         </ul>
