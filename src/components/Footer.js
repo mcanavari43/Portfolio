@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className='right'>
                 <h4>Sobre mi</h4>
-                <p>Soy un desarrollador que le gzusta trabajar en equipo, aprender de sus compañeros y cuento con la capacidad de resolver los problemas que se me presenten con las herramientas que conozco o encontrar otras de ser necesario. Puedo desempeñarme tanto en el Backend como en el FrontEnd.</p>
+                <p>Soy un desarrollador que le gusta trabajar en equipo, aprender de sus compañeros y cuento con la capacidad de resolver los problemas que se me presenten con las herramientas que conozco o encontrar otras de ser necesario. Puedo desempeñarme tanto en el Backend como en el FrontEnd.</p>
                 <div className='social'>
                     <a href="https://www.linkedin.com/in/manuel-canavari/" target="_blank" rel="noreferrer">
                 <FaLinkedin className="linkedin" size={50} style={{color: "#fff", marginRight: "1rem"}} />

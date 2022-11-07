@@ -17,6 +17,9 @@
 .nav-menu {
     display: flex;
 }
+.nav-menu:hover{
+    cursor: pointer;
+}
 
 .nav-menu li {
     padding: 0 1rem;
@@ -29,6 +32,9 @@
 
 .hamburger {
     display: none;
+}
+.hamburger:hover{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1040px){
@@ -60,5 +66,8 @@
 
     .hamburger{
         display: initial;
+    }
+    .hamburger:hover{
+        cursor: pointer;
     }
 }
