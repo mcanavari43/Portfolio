@@ -6,7 +6,7 @@ function WorkCard(props) {
   return (
     <div className="project-card">
     <h2 className="project-title">{props.title}</h2>
-      <a href="https://font-pf.vercel.app/" target="_blank" rel="noreferrer">
+      <a href={props.view} target="_blank" rel="noreferrer">
     <img src={props.imgsrc} alt="" />
     </a>
     <div className="pro-details">
