@@ -11,8 +11,9 @@ const AboutContent = () => {
   return (
     <div className='about'>
         <div className='left'>
-            <h1>¿Quien soy?</h1>
-            <p>Hola 👋! Soy Manuel, egresado de Henry y un apasionado por el Desarrollo Web 😄 Desde chico siempre me gusto el  mundo de la tecnologia, luego de realizar un curso de MySql me di cuenta que es algo que realmente me apasiona y decidi dedicarme a tiempo completo a la carrera Full Stack Developer de Henry, actualmente carrera ya finalizada  y con muchas ganas de seguir aprendiendo . . . ¡Estoy en busca de mi primer trabajo como Developer!</p>
+            <h1>¿Who i am?</h1>
+            <p>Hi 👋! I'm Manu, graduated from Henry and passionate about web development 😄 Since was  a child i have always like the world of TI, after finish a MySql course, i found that I am really passionate about, after that I decided to dedicate myself full time to the carrier to Full Stack Developer, currently finished and i have a lot desire to continue learning. . .
+            In this moment i'm looking for my first job as a Developer!</p>
             <Link to='/contact'>
                 <button className='btn'>Contact</button>
             </Link>
@@ -20,7 +21,7 @@ const AboutContent = () => {
         <div className='right'>
             <div className='img-container'>
                 <div className='img-stack top'>
-                    <h1>Tecnologias utilizadas</h1>
+                    <h1>Technologys i know</h1>
                     <section id="skills">
         <div className={st.skills}>
           {skills.skills &&
