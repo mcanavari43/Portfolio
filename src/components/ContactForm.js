@@ -22,11 +22,11 @@ const ContactForm = () => {
 
   return <div className='form'>
     <form onSubmit={sendEmail}>
-        <label>Tu nombre</label>
+        <label>Your name</label>
         <input type="text" name="name"></input>
         <label>Email</label>
         <input type="email" name="email"></input>
-        <label>Asunto</label>
+        <label>Subject</label>
         <input type="text" name="subject"></input>
         <label>Message</label>
         <textarea rows="6" placeholder='Escribi tu mensaje aqui' name="message"/>
