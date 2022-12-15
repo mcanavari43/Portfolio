@@ -21,7 +21,7 @@ const AboutContent = () => {
         <div className='right'>
             <div className='img-container'>
                 <div className='img-stack top'>
-                    <h1>Technologys i know</h1>
+                    <h1>Technology's i know</h1>
                     <section id="skills">
         <div className={st.skills}>
           {skills.skills &&
