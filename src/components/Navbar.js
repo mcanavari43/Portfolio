@@ -1,6 +1,7 @@
 import "./NavbarStyles.css"
 
-import pdf from "../assets/Cv-Manuel-Canavari.pdf";
+import EN from "../assets/CvE Manuel Ignacio Canavari.pdf";
+import ES from "../assets/CvS Manuel Ignacio Canavari.pdf";
 
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
@@ -11,6 +12,21 @@ const Navbar = () => {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+
+
+    // const [cv, setCv] = useState('')
+    
+    // const type = value => {
+    //     setCv(value);
+    // }
+
+    // const download = () => {
+    //     if(value){
+    //         setCv(input)
+    //     }
+    // }
+
+
 
     const [color,setColor] = useState(false)
     const changeColor = () => {
@@ -29,6 +45,7 @@ const Navbar = () => {
         <Link to="/">
             <h1>Portfolio.</h1>
         </Link>
+        
         <ul className={click?"nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">Home</Link>
@@ -43,14 +60,22 @@ const Navbar = () => {
                 <Link to="/contact">Contact</Link>
             </li>
             <li>
-            <a
-            href={pdf}
+            <a 
+            href={EN}
             target="_blank"
             rel="noreferrer"
-            download="Cv-Manuel-Canavari.pdf"
-          >
-            Download CV
-          </a>
+            download="CvE Manuel Ignacio Canavari.pdf">
+                Download Cv
+            </a>
+            </li>
+            <li>
+            <a 
+            href={ES}
+            target="_blank"
+            rel="noreferrer"
+            download="CvS Manuel Ignacio Canavari.pdf">
+                Descargar Cv
+            </a>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

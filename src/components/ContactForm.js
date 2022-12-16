@@ -29,7 +29,7 @@ const ContactForm = () => {
         <label>Subject</label>
         <input type="text" name="subject"></input>
         <label>Message</label>
-        <textarea rows="6" placeholder='Escribi tu mensaje aqui' name="message"/>
+        <textarea rows="6" placeholder='Write your message' name="message"/>
         <button className='btn'>Submit</button>
     </form>
   </div>
