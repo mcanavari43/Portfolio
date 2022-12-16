@@ -12,8 +12,8 @@ const AboutContent = () => {
     <div className='about'>
         <div className='left'>
             <h1>¿Who i am?</h1>
-            <p>Hi 👋! I'm Manu, graduated from Henry and passionate about web development 😄 Since was  a child i have always like the world of TI, after finish a MySql course, i found that I am really passionate about, after that I decided to dedicate myself full time to the carrier to Full Stack Developer, currently finished and i have a lot desire to continue learning. . .
-            In this moment i'm looking for my first job as a Developer!</p>
+            <p>Hi 👋! I'm Manu, graduated from Henry and passionate about web development 😄 Since i was a child i have always like the world of IT, after finishing a MySql course, i found that i am really passionate about it, after that i have decided to dedicate myself full time to the carrier to be come a Full Stack Developer, i have already finish my training and i'm really interested in to learning more...
+            In this moment i'm looking foward to getting my first job as a Developer!</p>
             <Link to='/contact'>
                 <button className='btn'>Contact</button>
             </Link>
@@ -21,7 +21,7 @@ const AboutContent = () => {
         <div className='right'>
             <div className='img-container'>
                 <div className='img-stack top'>
-                    <h1>Technology's i know</h1>
+                    <h1>Technologyes i handle</h1>
                     <section id="skills">
         <div className={st.skills}>
           {skills.skills &&
